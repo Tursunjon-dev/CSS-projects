@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.navbar{
+    height: auto;
+    width: 100%;
+    background-color: red;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:  0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(250, 250, 250);
+}
+.qwer{
+    width: 100%;
+    position: absolute;
+    top: 30;
+}
+.image{
+    text-align: center;
+}
+.caruselll{
+  background-size: cover;
+}
+.fghj{
+    color: red;
+}
+.cvbn{
+    background-color: lime;
+    border-radius: 3%;
+    border-color: tomato;
+}
+.tursunjon{
+    color: red;
+}
+.flud{
+    color: red;
+}
+.yuyu{
+    color: red;
+}
+.doop{
+    text-align: center;
+}
+.poiu img{
+   width: auto;
+   height: 150px;
+}
+.poiu{
+    text-align: center;
+}
+.olll{
+    color: darkblue;
+    background-color: green;
+}

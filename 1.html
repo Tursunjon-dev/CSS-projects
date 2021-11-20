@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    background-image: url(https://kartinkinaden.ru/uploads/posts/2020-07/1593702637_1-p-foni-dlya-kompyutera-1.jpg);
+    background-size: cover;
+}
+.column{
+    float: left;
+    width: 25%;
+    text-align: center;
+    border: 2px solid red;
+    padding: 5px;
+}
+.p1{
+    font-size: 36px;
+}
+
+@media (max-width: 767px){
+    .column{
+        width: 100%;
+    }
+    .p1{
+        font-size: 30px;
+    }
+    .header{
+        background-image: url(https://wallup.net/wp-content/uploads/2019/09/951857-forest-trees-nature-landscape-tree.jpg);
+    }
+}
+@media(min-width:768px) and (max-width: 1023px){
+    .column{
+        width: 50%;
+    }
+}
+@media(min-width:1024px){
+    .column{
+        width: 25%;
+    }
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+      </div>
+      <div class="alert alert-secondary" role="alert">
+        A simple secondary alert—check it out!
+      </div>
+      <div class="alert alert-success" role="alert">
+        A simple success alert—check it out!
+      </div>
+      <div class="alert alert-danger" role="alert">
+        A simple danger alert—check it out!
+      </div>
+      <div class="alert alert-warning" role="alert">
+        A simple warning alert—check it out!
+      </div>
+      <div class="alert alert-info" role="alert">
+        A simple info alert—check it out!
+      </div>
+      <div class="alert alert-light" role="alert">
+        A simple light alert—check it out!
+      </div>
+      <div class="alert alert-dark" role="alert">
+        A simple dark alert—check it out!
+      </div>
+    <div class="header"></div>
+    <div class="wrapper">
+        <div class="column">
+            <h1>Column 1</h1>
+            <p class="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 Aut nisi rem possimus error, obcaecati officiis blanditiis laudantium sed eligendi veniam.</p>
+        </div>
+        <div class="column">
+            <h1>Column 2</h1>
+            <p class="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Aut nisi rem possimus error, obcaecati officiis blanditiis laudantium sed eligendi veniam.</p>
+        </div>       
+        <div class="column">
+            <h1>Column 3</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aut nisi rem possimus error, obcaecati officiis blanditiis laudantium sed eligendi veniam.</p>
+        </div>
+        <div class="column">
+            <h1>Column 4</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aut nisi rem possimus error, obcaecati officiis blanditiis laudantium sed eligendi veniam.</p>
+        </div>
+    </div>
+   
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    
+    <button type="button" class="btn btn-link">Link</button>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://i.ytimg.com/vi/OUzxu0iOiP0/maxresdefault.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.maxbuttons.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-17-at-2.59.25-PM.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://miro.medium.com/max/1200/1*yc0Iazduf9wVx1FbQDUk_g.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://kartinkinaden.ru/uploads/posts/2020-07/1595761234_4-p-fon-lug-5.jpg" class="d-block w-100" alt="salom">
+          </div>
+          <div class="carousel-item">
+            <img src="https://kartinkinaden.ru/uploads/posts/2020-07/1593663913_5-p-foni-s-prirodoi-19.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="https://artsdot.com/ADC/Photos-ImgScreen.nsf/O/P-AC7DSW/$FILE/Nature-rivers_lakes_446_.Jpg" class="d-block w-100" alt="">
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</body>
+</html>

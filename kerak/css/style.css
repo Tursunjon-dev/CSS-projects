@@ -1,0 +1,36 @@
+/* *{
+   padding: 2%;
+} 
+.container{
+   text-align: center;
+   background-color: rgb(21, 71, 235);
+   font-size: 20px;
+}
+.done{
+   text-decoration: underline;
+}
+.highlight{
+   background-color: red;
+   text-align: left;
+}
+body{
+   font-family: sans-serif;
+}
+.containers{
+   text-align: left;
+}
+.containerss{
+   text-align: left;
+} */
+*
+div{
+   width: 300px;
+   height: 300px;
+   border-style: solid;
+   border-color: crimson;
+   border-width: 200px;
+}
+h1{
+   text-align: center;
+   text-decoration: unset;
+}
